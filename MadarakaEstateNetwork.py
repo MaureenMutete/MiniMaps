@@ -13,16 +13,21 @@ G.add_edge("SportsComplex","Siwaka",weight="450")
 G.add_edge("Siwaka","Ph1.A",weight="10")
 G.add_edge("Siwaka","Ph1.B",weight="230")
 
+G.add_edge("Ph1.A","Mada",weight="50")
+G.add_edge("Ph1.A","Ph1.B",weight="100")
+
 G.add_edge("Ph1.B","STC",weight="50")
 G.add_edge("Ph1.B","Phase2",weight="50")
 
 G.add_edge("Phase2","Phase3",weight="500")
 G.add_edge("Phase2","J1",weight="600")
+G.add_edge("Phase2","STC",weight="50")
 
 G.add_edge("Phase3","ParkingLot",weight="500")
 
 G.add_edge("J1","Mada",weight="200")
 
+G.add_edge("STC","ParkingLot",weight="250")
 G.add_edge("Mada","ParkingLot",weight="700")
 
 G.nodes["SportsComplex"]['pos']=(0,0)
