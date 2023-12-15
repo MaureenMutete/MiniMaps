@@ -34,3 +34,11 @@ In order to have this project on your PC follow these instructions:
       pip install matplotlib
       
       ```
+
+  3. Fork the project from Github.
+     
+  4. Alternatively clone the project in your IDE using
+     ```
+     git clone https://github.com/MaureenMutete/MiniMaps
+     ```
+ 5. Run the python files    
